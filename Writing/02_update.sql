@@ -1,3 +1,3 @@
-/* Se recomienda usar siempre el WHERE, para no afectar todos los usuarios de
-la base de datos, y así solo modificar los elementos que se requieren.*/
+/*It is recommended to always use WHERE, so as not to affect all users of the database, 
+and thus only modify the elements that are required.*/
 UPDATE users SET age=21 WHERE user_id = 10;
