@@ -20,4 +20,6 @@ BEGIN
 	SELECT * FROM users WHERE age=age_param;
 END //
 --
-CALL p_all_users(20);
+CALL p_age_users(20);
+--
+DROP PROCEDURE p_age_users;
